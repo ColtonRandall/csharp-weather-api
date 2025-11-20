@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net10.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <RootNamespace>csharp_weather_api</RootNamespace>
+        <!--   API KEY secret ID     -->
+        <UserSecretsId>67b2eb2f-51ac-471d-a7d8-5d9b954bb024</UserSecretsId>
+  </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.0" />
+    </ItemGroup>
+
+</Project>
